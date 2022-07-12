@@ -1,0 +1,90 @@
+@import "../../styles/variables.scss";
+
+.project-card {
+    align-items: center;
+    background-color: $background-text;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: black;
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+    padding: 1.5rem;
+
+    .project-title {
+        color: $background-secondary;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+      
+    .project-description p {
+        margin: 1rem 0;
+    }
+      
+    .project-description li {
+        list-style-type: disc;
+        margin-left: 1rem;
+    }
+      
+    .project-description a {
+        color: $background-secondary;
+        text-decoration: underline;
+        padding: 0.1rem;
+    }
+      
+    .project-description a:hover {
+        color: white;
+        background-color: $background-secondary;
+        text-decoration: none;
+    }
+      
+    .project-links {
+        color: $background-secondary;
+        font-size: 1.1rem;
+        margin-top: 2rem;
+        width: auto;
+    }
+      
+    .project-links a {
+        margin-right: 1rem;
+        padding-bottom: 4px;
+    }
+      
+    .project-links a:hover {
+        border-bottom: 1.5px solid;
+    }
+      
+    .project-langauges ul.languages {
+        padding-left: 0;
+
+        .tag {
+            background: $primary;
+            border-radius: 3px 0 0 3px;
+            color: black;
+            display: inline-block;
+            font-family: "Roboto", "Raleway", sans-serif;
+            height: 26px;
+            line-height: 26px;
+            padding: 0 20px 0 10px;
+            position: relative;
+            margin: 0 10px 10px 0;
+            text-decoration: none;
+            -webkit-transition: color 0.2s;
+        }
+          
+        .tag::after {
+            background: $primary;
+            border-bottom: 13px solid $background-text;
+            border-left: 10px solid $primary;
+            border-top: 13px solid $background-text;
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    }
+}
+
+.project-description a,
+.project-description a:hover {
+  transition: 0.2s;
+}

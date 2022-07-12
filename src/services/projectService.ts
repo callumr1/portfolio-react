@@ -10,28 +10,34 @@ export async function getProject(repo: string):Promise<Project>{
     var repoContent: string = "";
     var repoLanguages: string[] = [];
 
-    await getProjectUrl(repo).then(resp => repoUrl = resp);
+    
     await getProjectContent(repo).then(resp => repoContent = resp);
     await getProjectLanguages(repo).then(resp => repoLanguages = resp);
     
     var project: Project = {
         name: repo,
         content: repoContent,
-        url: repoUrl,
         languages: repoLanguages,
-        image: "./images/" + repo + ".png"
+        image: "./images/" + repo + ".png",
+        url: null,
+        projectUrl: null
     }
+
+    await getProjectUrl(project).then(proj => project = proj);
     return project;
 }
 
-async function getProjectUrl(repo: string):Promise<string>{
+async function getProjectUrl(proj: Project):Promise<Project>{
+    let repo : string = proj.name;
     const res = await octokit.rest.repos.get({
         owner,
         repo
     });
-    console.log(res.data);
     // res.data.homepage is the site url
-    return res.data.svn_url
+    proj.projectUrl = res.data.homepage;
+    proj.url = res.data.svn_url;
+
+    return proj
 }
 
 async function getProjectContent(repo: string):Promise<string>{
@@ -57,7 +63,12 @@ async function getProjectLanguages(repo: string){
 export interface Project {
     name: string,
     content: string,
-    url: string,
+    url: string | null,
+    projectUrl: string | null,
     languages: string[],
     image: string
+}
+
+export interface IProject {
+    name: string;
 }
