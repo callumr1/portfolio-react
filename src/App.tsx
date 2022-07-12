@@ -9,6 +9,9 @@ function App() {
 
   const projectNames: IProject[] = [
     {
+      name: "Pokedex"
+    },
+    {
         name: "PasswordGenerator"
     }, 
     {
