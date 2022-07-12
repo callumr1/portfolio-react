@@ -4,10 +4,10 @@ import './App.scss';
 import { useEffect, useState } from 'react';
 import { Markup } from 'interweave';
 import HeroContent from './components/heroContent/heroContent';
+import Footer from './components/footer/footer';
 
 function App() {
   
-
   const [projects, setProjects] = useState<Project[] | null>(null);
 
   useEffect(() => {
@@ -31,6 +31,7 @@ function App() {
         <h1 className="section-header">Projects</h1>
         {projects && projects.map(project => <ProjectCard {...project} />)}
       </div>
+      <Footer />
     </div>
   );
 }

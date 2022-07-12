@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin, faCodepen, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import './contacts.scss';
 
@@ -37,10 +36,6 @@ function Contacts(){
                     return <Contact {...contact} />
                 })}
             </ul>
-            <a className="contact-button" href="mailto:callumrobertson402@gmail.com" rel="noreferrer">
-                <FontAwesomeIcon icon={faEnvelope}/>
-                <span className="button-with-icon-text">Email Me</span>
-            </a>
         </div>
     )
 }

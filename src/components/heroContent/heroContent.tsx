@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
+import { faAngleDown, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import HeroImage from './heroImage/heroImage';
-import Contacts from './contacts/contacts';
+import Contacts from '../shared/contacts/contacts';
 import './heroContent.scss';
 
 
@@ -37,6 +37,10 @@ function HeroContent(){
                   </p>
               </div>
               <Contacts />
+              <a className="contact-button" href="mailto:callumrobertson402@gmail.com" rel="noreferrer">
+                <FontAwesomeIcon icon={faEnvelope}/>
+                <span className="button-with-icon-text">Email Me</span>
+            </a>
           </main>
           <a id="hero-scroll" className="scroll-down" href="#content-section"><FontAwesomeIcon icon={faAngleDown} size="2x" /></a>
       </div>

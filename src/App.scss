@@ -251,18 +251,11 @@ span::selection {
   text-decoration: underline;
 }
 
-.footer{
-  display: flex;
-  justify-content: center;
-  margin: 4rem 1rem;
-  position: relative;
-  text-align: center;
-  width: 100%;
-}
-
-.footer-text {
-  margin: 0.3rem 0;
-  font-size: 0.9rem;
+.hr {
+  background-color: $primary;
+  height: 1px;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 code {

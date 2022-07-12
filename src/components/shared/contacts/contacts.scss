@@ -1,0 +1,46 @@
+@import '../../../styles/variables.scss';
+
+.contact {
+    display: inline-block;
+    margin-top: 1.5rem;
+    vertical-align: top;
+}
+
+.social {
+    margin-bottom: 1.5rem;
+    padding-inline-start: 0;
+
+    li {
+        height: 2rem;
+        margin-right: 0.5rem;
+        text-align: center;
+        width: 2rem;
+        list-style-type: none;
+    }
+
+    a {
+        align-items: center;
+        font-size: 1.5rem;
+        height: 2rem;
+        opacity: 0.5;
+        transition-property: opacity, transform;
+        width: 2rem;
+        will-change: opacity, transform;
+    }
+
+    a:hover {
+        opacity: 1;
+        transform: scale(1.25);
+    }
+
+    a:active {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+}
+
+.contact-button, 
+.social a {
+    transform-origin: center;
+    transition-duration: 100ms;
+}
