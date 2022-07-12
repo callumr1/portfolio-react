@@ -12,28 +12,26 @@ function HeroContent(){
           <HeroImage />
           <main className="about">
               <h1 className="name">Hi, I'm Callum Robertson</h1>
-              <p className="title-job">Application Developer</p>
-              <p className="title-2">Enthusiast Designer</p>
+              <p className="title-job">Software Developer</p>
               <hr className="hr" />
               <div className="description">
                   <p>
-                      I am a Freelance Web Developer and Graphic Designer based in Australia.
+                      I am a Full Stack Software Developer based in Australia.
                       I graduated from James Cook University with a
-                      Bachelor of Information Technology in March 2019. I achieved an
+                      Bachelor of Information Technology in 2019. I achieved an
                       overall GPA of 5.8 and received an Academic Medal - Bachelor
                       Coursework.
                   </p>
                   <p className="text-spacing">
-                      During my degree I have studied various subjects including Software
+                      During my degree I studied various subjects including Software
                       Development, Data Mining and Data Analysis, Network Security, and
-                      Design Thinking. My goal is to continue to further my knowledge in
-                      all fields of study. I developed this site to showcase my skills and
-                      interests, along with projects that I have undertaken throughout the last few
-                      years.
+                      Design Thinking. Since graduating I have worked in two seperate roles as a Software Developer,
+                      and as a Business Analyst. I specialise in full-stack web development focused primarily 
+                      on .Net backend with a React or Angular frontend.
                   </p>
                   <p>
-                      I am proficient in HTML, CSS/Sass, JavaScript, jQuery, C#, .Net, and
-                      SQL with knowledge in PHP, Python, Java, and Android Development.
+                      I have expertise in .Net, Javascript/Typescript, React & Angular, HTML, CSS/Sass, and
+                      SQL with knowledge in Python, Java, and Android Development.
                   </p>
               </div>
               <Contacts />
