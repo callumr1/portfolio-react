@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.2894e266.css",
-    "main.js": "/portfolio-react/static/js/main.415cc9af.js",
-    "static/media/callum@3x.jpg": "/portfolio-react/static/media/callum@3x.7888546a3e86b46c8a2f.jpg",
-    "static/media/callum@2x.jpg": "/portfolio-react/static/media/callum@2x.ee5d36c8b1be52d9728e.jpg",
-    "static/media/background.jfif": "/portfolio-react/static/media/background.f2f4744f15a9ddc64153.jfif",
-    "static/media/MathWiz.png": "/portfolio-react/static/media/MathWiz.0a0a255769b9e26667bd.png",
-    "static/media/callum.jpg": "/portfolio-react/static/media/callum.9816f431979a879ee7ed.jpg",
-    "static/media/PasswordGenerator.png": "/portfolio-react/static/media/PasswordGenerator.6bc285af671db6bdbd98.png",
-    "static/media/ColourGenerator.png": "/portfolio-react/static/media/ColourGenerator.1942154027edcd95073a.png",
-    "static/media/Pokedex.png": "/portfolio-react/static/media/Pokedex.9030b57be98074dbae62.png",
-    "static/media/Notes.png": "/portfolio-react/static/media/Notes.d97353140ae79689903f.png",
-    "index.html": "/portfolio-react/index.html",
-    "main.2894e266.css.map": "/portfolio-react/static/css/main.2894e266.css.map",
-    "main.415cc9af.js.map": "/portfolio-react/static/js/main.415cc9af.js.map"
+    "main.css": "/static/css/main.09f8b1d2.css",
+    "main.js": "/static/js/main.c1a7575e.js",
+    "static/media/callum@3x.jpg": "/static/media/callum@3x.7888546a3e86b46c8a2f.jpg",
+    "static/media/callum@2x.jpg": "/static/media/callum@2x.ee5d36c8b1be52d9728e.jpg",
+    "static/media/background.jfif": "/static/media/background.f2f4744f15a9ddc64153.jfif",
+    "static/media/MathWiz.png": "/static/media/MathWiz.0a0a255769b9e26667bd.png",
+    "static/media/callum.jpg": "/static/media/callum.9816f431979a879ee7ed.jpg",
+    "static/media/PasswordGenerator.png": "/static/media/PasswordGenerator.6bc285af671db6bdbd98.png",
+    "static/media/ColourGenerator.png": "/static/media/ColourGenerator.1942154027edcd95073a.png",
+    "static/media/Pokedex.png": "/static/media/Pokedex.9030b57be98074dbae62.png",
+    "static/media/Notes.png": "/static/media/Notes.d97353140ae79689903f.png",
+    "index.html": "/index.html",
+    "main.09f8b1d2.css.map": "/static/css/main.09f8b1d2.css.map",
+    "main.c1a7575e.js.map": "/static/js/main.c1a7575e.js.map"
   },
   "entrypoints": [
-    "static/css/main.2894e266.css",
-    "static/js/main.415cc9af.js"
+    "static/css/main.09f8b1d2.css",
+    "static/js/main.c1a7575e.js"
   ]
 }
