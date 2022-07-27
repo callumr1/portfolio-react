@@ -1,15 +1,12 @@
 import { Octokit } from "octokit";
-import auth from "./auth.json";
 
 const owner: string = "callumr1"
 
-const octokit = new Octokit({ auth: auth.authToken});
+const octokit = new Octokit({ auth: process.env.REACT_APP_GITHUB_KEY});
 
 export async function getProject(repo: string):Promise<Project>{
-    var repoUrl: string = "";
     var repoContent: string = "";
     var repoLanguages: string[] = [];
-
     
     await getProjectContent(repo).then(resp => repoContent = resp);
     await getProjectLanguages(repo).then(resp => repoLanguages = resp);
