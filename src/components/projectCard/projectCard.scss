@@ -10,6 +10,10 @@
     margin-top: 4rem;
     padding: 1.5rem;
 
+    main {
+        max-width: 100%;
+    }
+
     .project-title {
         color: $background-secondary;
         font-size: 1.3rem;
@@ -87,4 +91,8 @@
 .project-description a,
 .project-description a:hover {
   transition: 0.2s;
+}
+
+.project-image{
+    width: 100%;
 }

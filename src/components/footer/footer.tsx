@@ -6,7 +6,7 @@ function Footer(){
     return (
         <footer className="footer">
             <Contacts />
-            <span>Want to get in contact with me? Email me at <a className="link" href="mailto:callumrobertson402@gmail.com">callum.robertson402@gmail.com</a>
+            <span className="footer-text">Want to get in contact with me? Email me at <a className="link" href="mailto:callumrobertson402@gmail.com">callum.robertson402@gmail.com</a>
             </span>
             <hr className="hr" />
             <span className="footer-text">Inspired by <a className="link" href="https://jgthms.com/css-in-44-minutes-ebook/">CSS in 44 minutes</a> by Jeremy Thomas</span>
