@@ -13,8 +13,8 @@ jobs:
         run: |
           npm install
           npm run-script build
-        env:
-        REACT_APP_GITHUB_KEY: ${{ secrets.REACT_APP_GITHUB_KEY }}
+          env:
+          REACT_APP_GITHUB_KEY: ${{ secrets.REACT_APP_GITHUB_KEY }}
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
