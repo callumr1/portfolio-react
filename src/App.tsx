@@ -12,17 +12,20 @@ function App() {
       name: "Pokedex"
     },
     {
-        name: "PasswordGenerator"
+      name: "MacroCounter"
+    },
+    {
+      name: "PasswordGenerator"
     }, 
     {
-        name: "MathWiz"
+      name: "MathWiz"
     },
     {
-        name: "ColourGenerator"
+      name: "ColourGenerator"
     },
-    {
-        name: "Notes"
-    } 
+    // {
+    //   name: "Notes"
+    // } 
 ];  
 
   return (
