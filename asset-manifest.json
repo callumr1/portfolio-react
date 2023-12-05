@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ae62769a.css",
-    "main.js": "/static/js/main.ae96af2a.js",
+    "main.js": "/static/js/main.f415236b.js",
     "static/media/callum@3x.jpg": "/static/media/callum@3x.7888546a3e86b46c8a2f.jpg",
     "static/media/callum@2x.jpg": "/static/media/callum@2x.ee5d36c8b1be52d9728e.jpg",
     "static/media/background.jfif": "/static/media/background.f2f4744f15a9ddc64153.jfif",
@@ -9,14 +9,15 @@
     "static/media/callum.jpg": "/static/media/callum.9816f431979a879ee7ed.jpg",
     "static/media/PasswordGenerator.png": "/static/media/PasswordGenerator.6bc285af671db6bdbd98.png",
     "static/media/ColourGenerator.png": "/static/media/ColourGenerator.1942154027edcd95073a.png",
+    "static/media/MacroCounter.png": "/static/media/MacroCounter.c0454f290c435541630b.png",
     "static/media/Pokedex.png": "/static/media/Pokedex.9030b57be98074dbae62.png",
     "static/media/Notes.png": "/static/media/Notes.d97353140ae79689903f.png",
     "index.html": "/index.html",
     "main.ae62769a.css.map": "/static/css/main.ae62769a.css.map",
-    "main.ae96af2a.js.map": "/static/js/main.ae96af2a.js.map"
+    "main.f415236b.js.map": "/static/js/main.f415236b.js.map"
   },
   "entrypoints": [
     "static/css/main.ae62769a.css",
-    "static/js/main.ae96af2a.js"
+    "static/js/main.f415236b.js"
   ]
 }
